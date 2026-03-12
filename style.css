@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #ecfdf5;
+    font-family: "Karla", sans-serif;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+    background-color: #1f2937;
+}
+
+.box {
+    margin: 115px 0 0 52px
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: -2.5%;
+    width:354px;
+    margin-bottom: 0px
+}
+
+span {
+    color: #4adf86
+}
+
+p {
+    color: #d5d4d8;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.buttons {
+    width: 446px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #10b981;
+    color:white;
+    width: 191px;
+    padding:9px 17px 9px 15px;
+    border:none;
+    border-radius:6px;
+    margin-bottom: 35px;
+    cursor: pointer
+}
+
+.line {
+    width: 446px;
+    height: 2px;
+    background-color: #2f3e53;
+    margin-bottom: 35px;
+}
+
+.password_boxes {
+    width:446px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sub_box1, #sub_box2 {
+    width:190px;
+    height:39px;
+    box-sizing: border-box;
+    background-color: #273549;
+    border-radius: 6px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
